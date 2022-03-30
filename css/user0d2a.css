@@ -1,0 +1,237 @@
+@charset "utf-8";
+/* SHINING 독립 사용 */
+@font-face {
+  font-family: "Godo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("http://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff2")
+      format("woff2"),
+    url("http://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoM.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Godo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("http://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff2")
+      format("woff2"),
+    url("http://cdn.jsdelivr.net/korean-webfonts/1/corps/godo/Godo/GodoB.woff")
+      format("woff");
+}
+
+/* head 전체 100% 혹은 min-width 사용 */
+#sh_hd {
+  z-index: 10;
+  position: relative;
+  min-width: 1070px;
+}
+#top_bg {
+  min-width: 1070px;
+  width: 100%;
+  position: absolute;
+  top: 100px;
+  left: 0;
+  height: 40px;
+  background-color: #aa36bb;
+}
+
+/* head 센터 및 넓이 지정 */
+#sh_hd_wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  width: 1070px;
+  zoom: 1;
+}
+#sh_hd_wrapper:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  content: "";
+}
+
+/* 메인,서브 비주얼이미지 */
+#sh_container {
+  z-index: 0;
+  position: relative;
+  width: 100%;
+  min-width: 1070px;
+  overflow: hidden;
+  height: 100%;
+  top: 17px;
+}
+#sh_container_wrapper {
+  width: 1070px;
+  margin: 0 auto;
+}
+#sh_container_wrapper:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  content: "";
+}
+#sh_container_wrapper_m {
+  position: relative;
+  z-index: -100;
+  margin: 0 auto;
+  width: 100%;
+  zoom: 1;
+  overflow: hidden;
+  height: 665px;
+  background: #fff;
+}
+#sh_container_wrapper_m:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  content: "";
+}
+#sh_container_top img {
+  position: absolute;
+  left: 50%;
+  margin-left: -708px;
+}
+#sh_container_topbg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 10px;
+  z-index: 9999;
+  background: url("../sh_img/hd/top_menu/topmenu_shadow.html") repeat-x;
+}
+
+/* 사이드(서브)메뉴 float:left; 선택 단 content 와 같은 방향 X */
+#sh_aside {
+  float: left;
+  margin: 0;
+  width: 220px;
+  height: 100%;
+}
+
+#sh_content {
+  z-index: 4;
+  position: relative;
+  float: right;
+  padding: 0;
+  width: 1100px;
+  margin: 40px 0 60px 0;
+  min-height: 500px;
+  line-height: 1.5em;
+  color: #666;
+  zoom: 1;
+}
+#sh_content:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  content: "";
+}
+#sh_content #sh_content_tit {
+  margin-bottom: 40px;
+  overflow: hidden;
+}
+#sh_content #sh_content_tit:after {
+  clear: both;
+}
+#sh_content #sh_content_tit h3 {
+  float: left;
+  padding: 0;
+  font-size: 26px;
+  line-height: 1em;
+  color: #333333;
+  letter-spacing: -0.05em;
+  font-family: "notokr-bold";
+}
+#sh_content #sh_content_tit h3 img {
+  display: inline-block;
+  padding-right: 10px;
+}
+#sh_content #sh_content_tit span {
+  float: right;
+  margin-top: 7px;
+  background: url("../sh_img/hd/sub_home.png") 0 6px no-repeat;
+  padding-left: 17px;
+}
+
+/* 하단 */
+#sh_ft {
+  position: relative;
+  min-width: 1070px;
+  border-top: 3px solid #d20962;
+  background: #f5f5f5;
+}
+#sh_ft_wrapper {
+  position: relative;
+  margin: 0 auto;
+  padding: 10px 0 30px 0;
+  width: 1070px;
+  zoom: 1;
+  line-height: 140%;
+}
+#sh_ft_wrapper:after {
+  display: block;
+  visibility: hidden;
+  clear: both;
+  content: "";
+}
+
+#ft_adt .adt_txt {
+  margin: 10px 0;
+  font-size: 16px;
+  letter-spacing: -0.3px;
+  line-height: 25px;
+  color: #333;
+  font-family: "notokr-regular";
+}
+#ft_adt .adt_tel {
+  font-size: 22px;
+  letter-spacing: -0.3px;
+  color: #d20962;
+  font-style: italic;
+  font-family: "notokr-medium";
+}
+#ft_adt .adt_img {
+  margin: 20px 0;
+}
+.s_ft {
+  font-size: 10px;
+  letter-spacing: -1.5px;
+}
+
+#sh_ft_wrapper #gotop {
+  position: absolute;
+  right: 0;
+}
+#sh_ft_wrapper ul {
+  width: 100%;
+  padding-top: 26px;
+}
+#sh_ft_wrapper ul li {
+  float: left;
+  padding: 0 10px;
+  background: url("../sh_img/ft/ft_line.html") right 4px no-repeat;
+  color: #636363;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+#sh_ft_wrapper ul li.first {
+  padding: 0 10px 0 0;
+}
+#sh_ft_wrapper ul li.last {
+  padding: 0 0 0 10px;
+  background: none;
+}
+#sh_ft_wrapper #address {
+  padding-top: 10px;
+  color: #898989;
+  clear: both;
+}
+#sh_ft_wrapper #address p {
+  padding-top: 4px;
+}
+#sh_ft_wrapper #sh_ft_icon {
+  position: absolute;
+  right: 0;
+  bottom: 37px;
+}

@@ -1,0 +1,91 @@
+.slider {
+  width: 100%;
+  min-width: 1920px;
+  height: 555px;
+  position: static;
+  overflow: hidden;
+  background: #fff;
+  text-align: center;
+}
+.slider .bd {
+  width: 1920px;
+  position: absolute;
+  left: 100%;
+  margin-left: -665px;
+}
+.slider .bd li {
+  width: 1920px;
+  overflow: hidden;
+  padding: 0 5px;
+}
+.slider .bd li img {
+}
+.slider .tempWrap {
+  overflow: visible !important;
+}
+.slider .tempWrap ul {
+  margin-left: -1250px !important;
+}
+.slider .hd {
+  display: none;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  z-index: 1;
+  height: 8px;
+  bottom: 45px;
+  text-align: center;
+}
+.slider .hd li {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  width: 62px;
+  height: 3px;
+  line-height: 99px;
+  overflow: hidden;
+  background: #d9d9d9;
+  margin: 0 3px;
+  cursor: pointer;
+}
+.slider .hd li.on {
+  background: #a386ac;
+}
+.slider .pnBtn {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  width: 100%;
+  height: 495px;
+  cursor: pointer;
+}
+.slider .prev {
+  left: -50%;
+}
+.slider .next {
+  left: 50%;
+  margin-left: 535px;
+}
+.slider .pnBtn .blackBg {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+
+  background: #f9f9f9;
+  filter: alpha(opacity=50);
+  opacity: 0.5;
+}
+.slider .pnBtn .arrow {
+  /* display:none; */
+  position: absolute;
+  top: 50%;
+  z-index: 1;
+  width: 40px;
+  height: 87px;
+}
+.slider .pnBtn .arrow:hover {
+  filter: alpha(opacity=60);
+  opacity: 0.6;
+}

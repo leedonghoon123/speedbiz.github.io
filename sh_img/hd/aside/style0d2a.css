@@ -1,0 +1,11 @@
+#aside_wrap{width:200px;overflow:hidden;}
+#aside_wrap .aside_tit{font-size:20px; font-weight:bold; color:#333333;padding:37px 0 37px 0px;letter-spacing:-2px; border-bottom:2px solid #5fc2e9;}
+
+#l_menu{}
+#l_menu li{font-size:15px;color:#666;background:#;line-height:15px; font-weight:bold; border-bottom:1px solid #f2f2f2;}
+
+#l_menu li a{display:block;padding:14px 0 14px 20px;color:#666666;word-wrap:break-word;}
+
+#l_menu li a:hover{color:#FFF;background:url('bg_lnb_over.gif') no-repeat left top;}
+#l_menu li.l_menu_ON a{color:#FFF;background:url('bg_lnb_over.gif') no-repeat left top;}
+

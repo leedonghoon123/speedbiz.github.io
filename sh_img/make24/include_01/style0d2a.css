@@ -1,0 +1,14 @@
+#article_01 > div .bgImg{display:block;height:100px;background:url("img/idx_new_bnr.png") no-repeat}
+#article_01 > div .bgImg:hover{background-image:url("img/idx_new_bnr_hover.png")}
+#article_01 {overflow:hidden;width:100%}
+#article_01 .article_01_wrap {width:1070px;margin:0 auto;padding-bottom:50px}
+#article_01 .article_01_wrap h3 {padding-left:26px;font-size:23px;line-height:26px;letter-spacing:-0.3px;color:#007cc0;font-family:'notokr-medium';background:url(img/h3_icon.png) no-repeat left center}
+#article_01 .article_01_wrap ul {overflow:hidden;margin-top:20px;border:1px solid #ddd}
+#article_01 .article_01_wrap ul li {float:left;width:20%;height:150px;padding:17px 10px;border-right:1px solid #ddd;box-sizing:border-box}
+#article_01 .article_01_wrap .list_01 {background:url(../../../sh_page/img/p33_t01.jpg) no-repeat 5% center}
+#article_01 .article_01_wrap .list_02 {background:url(../../../sh_page/img/p33_t06.png) no-repeat 5% center}
+#article_01 .article_01_wrap .list_03 {background:url(img/art01_img03.png) no-repeat 5% center}
+#article_01 .article_01_wrap .list_04 {border-right:0;background:url(img/art01_img06.png) no-repeat 5% center}
+#article_01 .article_01_wrap .list_05 {background:url(img/art01_img05.png) no-repeat 5% center}
+#article_01 .article_01_wrap .column_tit {padding:0 0 10px 94px ;font-size:20px;line-height:26px;letter-spacing:-0.5px;color:#555;font-family:'notokr-bold'}
+#article_01 .article_01_wrap .column_txt {padding-left:100px;font-size:14px;line-height:23px;letter-spacing:-0.5px;color:#777;font-family:'notokr-regular'}

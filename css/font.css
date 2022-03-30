@@ -1,0 +1,63 @@
+/* Nanum Gothic */
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/NanumGothic-Regular.eot);
+  src: url(font/NanumGothic-Regulard41d.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumGothic-Regular.html) format('woff2'),
+       url(font/NanumGothic-Regular.woff) format('woff'),
+       url(font/NanumGothic-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(font/NanumGothic-Bold.eot);
+  src: url(font/NanumGothic-Boldd41d.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumGothic-Bold.html) format('woff2'),
+       url(font/NanumGothic-Bold.woff) format('woff'),
+       url(font/NanumGothic-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Gothic';
+  font-style: normal;
+  font-weight: 800;
+  src: url(font/NanumGothic-ExtraBold.eot);
+  src: url(font/NanumGothic-ExtraBoldd41d.eot?#iefix) format('embedded-opentype'),
+       url(font/NanumGothic-ExtraBold.html) format('woff2'),
+       url(font/NanumGothic-ExtraBold.woff) format('woff'),
+       url(font/NanumGothic-ExtraBold.ttf) format('truetype');
+}
+
+/* Nanum Myeongjo */
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 400;
+  src: url(font/NanumMyeongjo-Regular.html);
+  src: url(font/NanumMyeongjo-Regulard41d.html?#iefix) format('embedded-opentype'),
+       url(font/NanumMyeongjo-Regular-2.html) format('woff2'),
+       url(font/NanumMyeongjo-Regular-3.html) format('woff'),
+       url(font/NanumMyeongjo-Regular-4.html) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 600;
+  src: url(font/NanumMyeongjo-Bold.html);
+  src: url(font/NanumMyeongjo-Boldd41d.html?#iefix) format('embedded-opentype'),
+       url(font/NanumMyeongjo-Bold-2.html) format('woff2'),
+       url(font/NanumMyeongjo-Bold-3.html) format('woff'),
+       url(font/NanumMyeongjo-Bold-4.html) format('truetype');
+}
+@font-face {
+  font-family: 'Nanum Myeongjo';
+  font-style: normal;
+  font-weight: 700;
+  src: url(font/NanumMyeongjo-ExtraBold.html);
+  src: url(font/NanumMyeongjo-ExtraBoldd41d.html?#iefix) format('embedded-opentype'),
+       url(font/NanumMyeongjo-ExtraBold-2.html) format('woff2'),
+       url(font/NanumMyeongjo-ExtraBold-3.html) format('woff'),
+       url(font/NanumMyeongjo-ExtraBold-4.html) format('truetype');
+}
